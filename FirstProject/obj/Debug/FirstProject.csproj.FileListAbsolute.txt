@@ -1,0 +1,17 @@
+C:\Users\KARTAL\Desktop\FirstProject\FirstProject\obj\Debug\FirstProject.csprojAssemblyReference.cache
+C:\Users\KARTAL\Desktop\FirstProject\FirstProject\obj\Debug\Edit.g.cs
+C:\Users\KARTAL\Desktop\FirstProject\FirstProject\obj\Debug\MainWindow.g.cs
+C:\Users\KARTAL\Desktop\FirstProject\FirstProject\obj\Debug\App.g.cs
+C:\Users\KARTAL\Desktop\FirstProject\FirstProject\obj\Debug\FirstProject_MarkupCompile.cache
+C:\Users\KARTAL\Desktop\FirstProject\FirstProject\obj\Debug\FirstProject_MarkupCompile.lref
+C:\Users\KARTAL\Desktop\FirstProject\FirstProject\bin\Debug\FirstProject.exe.config
+C:\Users\KARTAL\Desktop\FirstProject\FirstProject\bin\Debug\FirstProject.exe
+C:\Users\KARTAL\Desktop\FirstProject\FirstProject\bin\Debug\FirstProject.pdb
+C:\Users\KARTAL\Desktop\FirstProject\FirstProject\obj\Debug\Edit.baml
+C:\Users\KARTAL\Desktop\FirstProject\FirstProject\obj\Debug\MainWindow.baml
+C:\Users\KARTAL\Desktop\FirstProject\FirstProject\obj\Debug\FirstProject.g.resources
+C:\Users\KARTAL\Desktop\FirstProject\FirstProject\obj\Debug\FirstProject.Properties.Resources.resources
+C:\Users\KARTAL\Desktop\FirstProject\FirstProject\obj\Debug\FirstProject.csproj.GenerateResource.cache
+C:\Users\KARTAL\Desktop\FirstProject\FirstProject\obj\Debug\FirstProject.csproj.CoreCompileInputs.cache
+C:\Users\KARTAL\Desktop\FirstProject\FirstProject\obj\Debug\FirstProject.exe
+C:\Users\KARTAL\Desktop\FirstProject\FirstProject\obj\Debug\FirstProject.pdb

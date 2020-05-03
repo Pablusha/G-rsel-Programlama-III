@@ -32,27 +32,32 @@ namespace FirstProject
             if (txtAd.Text == "")
             {
                 MessageBox.Show("İsim alanı boş geçilemez…");
-
+                txtAdUyari.Visibility = Visibility.Visible;
+                
             }
 
             else if (txtSoyad.Text == "")
             {
                 MessageBox.Show("Soyisim alanı boş geçilemez…");
+                txtSoyadUyari.Visibility = Visibility.Visible;
             }
 
             else if (cmbCinsiyet.Text == "")
             {
                 MessageBox.Show("Cinsiyet alanı boş geçilemez…");
+                cmbCinsiyetUyari.Visibility = Visibility.Visible;
             }
 
             else if (txtOgrenciNo.Text == "")
             {
                 MessageBox.Show("Öğrenci No alanı boş geçilemez…");
+                txtOgrenciNoUyari.Visibility = Visibility.Visible;
             }
 
             else if (cmbBolum.Text == "")
             {
                 MessageBox.Show("Bölüm bilgisi boş geçilemez…");
+                cmbBolumUyari.Visibility = Visibility.Visible;
             }
 
             else
@@ -65,6 +70,11 @@ namespace FirstProject
                 kullanici.Bolum = cmbBolum.Text;
                 bilgiler.Add(kullanici);
                 tablo2.Items.Add(kullanici);
+                txtAdUyari.Visibility = Visibility.Hidden;
+                txtSoyadUyari.Visibility = Visibility.Hidden;
+                cmbCinsiyetUyari.Visibility = Visibility.Hidden;
+                txtOgrenciNoUyari.Visibility = Visibility.Hidden;
+                cmbBolumUyari.Visibility = Visibility.Hidden;
             }
 
         }

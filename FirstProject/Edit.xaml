@@ -8,12 +8,17 @@
         Title="Edit" Height="450" Width="800">
     <Grid>
         <Label Foreground="Black" Margin="5,19,646,373">Ad</Label>
+        <Label Name="txtAdUyari" Visibility="Hidden" Foreground="Red" Margin="65,37,0,0">Ad Alanı boş bırakılamaz..</Label>
         <TextBox x:Name="txtSoyad" Margin="71,57,597,344"></TextBox>
+        <Label Name="txtSoyadUyari" Visibility="Hidden" Foreground="Red" Margin="65,67,0,0">Soyad Alanı boş bırakılamaz..</Label>
         <Label Foreground="Black" Margin="4,51,682,335">Soyad</Label>
+        <Label Name="cmbCinsiyetUyari" Visibility="Hidden" Foreground="Red" Margin="65,103,0,0">Cinsiyet Alanı boş bırakılamaz..</Label>
         <Label Foreground="Black" Margin="3,84,683,302">Cinsiyet</Label>
+        <Label Name="txtOgrenciNoUyari" Visibility="Hidden" Foreground="Red" Margin="65,134,0,0">Öğrenci Numarası boş bırakılamaz..</Label>
         <Label Foreground="Black" Margin="3,117,683,272">Öğrenci No</Label>
-        <Label Foreground="Black" Margin="4,147,682,239">Bölüm</Label>
-        <ComboBox Name="cmbBolum" Margin="71,150,597,247">
+        <Label Name="cmbBolumUyari" Visibility="Hidden" Foreground="Red" Margin="65,172,0,0">Bölüm kısmı boş bırakılamaz.</Label>
+        <Label Foreground="Black" Margin="0,152,686,234">Bölüm</Label>
+        <ComboBox Name="cmbBolum" Margin="71,158,597,239">
             <ComboBoxItem>Bilgisayar Programcılığı</ComboBoxItem>
             <ComboBoxItem>Fizyoterapi</ComboBoxItem>
             <ComboBoxItem>Dış Ticaret</ComboBoxItem>
@@ -26,7 +31,7 @@
         </ComboBox>
         <TextBox x:Name="txtAd" Margin="71,25,597,376"/>
         <TextBox x:Name="txtOgrenciNo" Margin="72,123,596,278"/>
-        <Button x:Name="btnKaydet" Content="KAYDET" Margin="72,188,592,194" RenderTransformOrigin="0.5,0.5" Click="btnKaydet_Click" >
+        <Button x:Name="btnKaydet" Content="KAYDET" Margin="72,204,592,178" RenderTransformOrigin="0.5,0.5" Click="btnKaydet_Click" Background="#FFF1B9B9" >
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -36,7 +41,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <DataGrid Name="tablo2" Height="173" Margin="298,25,125,0" Grid.Column="0" AutoGenerateColumns="False" VerticalAlignment="Top">
+        <DataGrid Name="tablo2" Height="173" Margin="298,25,125,0" Grid.Column="0" AutoGenerateColumns="False" VerticalAlignment="Top" Background="#FFA68F8F">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Ad" Binding="{Binding Ad}"/>
                 <DataGridTextColumn Header="Soyad" Binding="{Binding Soyad}"/>
@@ -46,6 +51,12 @@
             </DataGrid.Columns>
         </DataGrid>
         <ComboBox Name="cmbIndex" Margin="399,232,247,119" SelectionChanged="cmbIndex_SelectionChanged" >
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="#FFCBB8B8" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
             <ComboBoxItem>0</ComboBoxItem>
             <ComboBoxItem>1</ComboBoxItem>
             <ComboBoxItem>2</ComboBoxItem>

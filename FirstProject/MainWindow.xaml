@@ -9,7 +9,7 @@
     <Grid>
         <!--Text="{Binding ElementName=txbName, Path=SelectedItem.AD}" :  -->
         <Button Name="btnAdd" Content="Ekle" Background="Peru" Margin="549,206,183,172" Click="btnAdd_Click" />
-        <DataGrid Name="tablo" Height="173" Margin="88,117,335,0" Grid.Column="0" AutoGenerateColumns="False" VerticalAlignment="Top">
+        <DataGrid Name="tablo" Height="173" Margin="88,117,335,0" Grid.Column="0" AutoGenerateColumns="False" VerticalAlignment="Top" Background="#FFE47E7E">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Ad" Binding="{Binding Ad}"/>
                 <DataGridTextColumn Header="Soyad" Binding="{Binding Soyad}"/>
